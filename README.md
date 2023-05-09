@@ -1,4 +1,4 @@
-# GitHub Actions Fundamentals (PD)
+# GitHub Actions Fundamentals (Phil)
 
 Repo for the `GitHub Actions Fundamentals` training.
 
