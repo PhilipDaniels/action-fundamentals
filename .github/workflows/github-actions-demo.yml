@@ -15,8 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo "Trigged by event ${{ github.event_name }}"
-        echo "The name of the branch is ${{ github.ref }}"
+          echo "Trigged by event ${{ github.event_name }}"
+          echo "The name of the branch is ${{ github.ref }}"
       - uses: actions/checkout@v3.3.0
       - name: List files in the repo
         run: |
